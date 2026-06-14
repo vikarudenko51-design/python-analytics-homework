@@ -14,7 +14,6 @@ data = {"city": ["Kyiv", "Lviv", "Odesa"], "sales": [1200, 950, 500]}
 print("Продажі по містах (тимчасова версія):")
 
 
-print("Середнє значення:", df["sales"].mean())
 
 average_sales = df["sales"].mean()
 print("Середнє значення:", average_sales)
